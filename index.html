@@ -366,6 +366,7 @@
             title: CONFIG.shareTitle,
             description: CONFIG.shareDesc,
             imageUrl: CONFIG.shareImageUrl || undefined,
+            imageWidth: 800, imageHeight: 400,   // 비율을 지정해야 카톡에서 정사각형으로 안 잘림
             link: { mobileWebUrl: shareUrl, webUrl: shareUrl }
           },
           buttons: [{ title: "쿠폰 받기", link: { mobileWebUrl: shareUrl, webUrl: shareUrl } }]
